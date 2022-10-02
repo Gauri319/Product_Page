@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;1,300;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-conatiner{
+    margin: 45px 0px 0px 0px;
+    height:488px;
+}
+.container-section{
+   margin:0px 195px;
+}
+.header-row-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+}
+.body-row-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 51px 0px;
+}
+.footer-row-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.header-heading h3{
+    margin: 13px 126px 13px 0px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.header-icon{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    align-items: center;
+    margin:20px 0px ;
+    width: 236px;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 20px;
+    height: 200px;
+}
+.heading-section h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;    
+}
+.body{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.body a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.form input{
+    border: 0.1px solid rgb(207, 204, 204);
+    padding: 15px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px; 
+    letter-spacing: 0.2px;
+    color: #737373;
+    outline: none;
+}
+.form button{
+    font-weight: 400;
+    font-size: 14px;
+    padding: 16px 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: #23A6F0;
+    border: none;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+}
+.base-cotent{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height:200px;
+}
+.form-section p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+     
+}
+@media only screen and (max-width: 1000px) {
+    .container-section{
+        margin:0px 50px;
+     }
+}

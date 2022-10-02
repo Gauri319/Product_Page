@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;1,300;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+.container-fluid{
+    height:622px;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 209px;
+    margin: 34px 89px 34px 59px;
+    border-radius: 15px;
+    background-color: #95e9f4;;;
+}
+.subColumn{
+    width:610px;
+    height:316px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap:30px;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+.column1 h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    color: #2A7CC7;
+}
+.column1 h1{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+}
+.h4Container{
+    width: 65%;
+}
+.h4Container h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px; 
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+.column1 button{
+    padding: 15px 35px;
+    gap: 10px;  
+    width: 221px;
+    height: 62px;
+    background: #23A6F0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.column1 button h3{
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;   
+    text-align: center;
+    letter-spacing: 0.1px;    
+    color: #FFFFFF;
+
+}
+/* --------------------------------------------------------------------------- */
+@media only screen and (max-width: 968px) {
+    .column1 h1{
+        font-size: 28px;
+        
+    }
+    .row{
+    padding: 0px 0px 0px 20px;
+    margin: 34px 20px ;
+    }
+    .column2 img{
+        width:400px ;
+
+    }
+    .column1{
+        margin-right: 150px;
+        width: 150px;
+    }
+
+}
