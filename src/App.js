@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/layout/Header";
+import Main from "./components/layout/Main";
+import Footer from "./components/layout/Footer";
+import {useState} from 'react'
+
 
 function App() {
+  // this function takes the count of cart item from main
+    const [count2, setcount2]= useState(0);
+    function handleCard3(count){
+        setcount2(count);
+    }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Header count={count2}/>
+      <Main updatecart2={handleCard3}/>
+      <Footer/> 
     </div>
   );
 }
